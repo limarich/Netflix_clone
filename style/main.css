@@ -9,7 +9,7 @@
 }
 body {
     background: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color:white;
 }
 header .container {
@@ -71,4 +71,35 @@ header nav a:hover {
 }
 .click i {
     margin-right: 5px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.box-movie {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.owl-carousel {
+    margin-top: 5px;
+}
+/*RESPONSIVIDADE*/
+/*largura menor ou igual que 700px*/
+@media screen and (max-width: 700px) {
+ header .container {
+     display: flex;
+     flex-direction: column;
+ }
+ .click {
+     margin-top: 5px;
+     width: 200px;
+     height: 60px;
+ }
+}
+/*largura maior ou igual que 1000px*/
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 50%;
+    }
 }
