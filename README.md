@@ -6,7 +6,7 @@
 ### Sumário
 - <a href="#Sobre">Sobre</a>
 - <a href="#Tecnologias">Tecnologias</a>
-- <a href="#Como usar">Como usar</a>
+- <a href="#Tutorial">Como usar</a>
 - <a href="#Features">Features</a>
 - <a href="#Contatos">Contatos</a>
 - <a href="#https://limarich.github.io/My-ToDo/">Página do projeto</a>
@@ -24,7 +24,7 @@ Este projeto foi criado com a finalidade de entender mais sobre como criar pági
 
 ------------
 
-###Como usar
+###Tutorial
 ```bash
 #Clone o repositório
 https://github.com/limarich/Netflix_clone.git
