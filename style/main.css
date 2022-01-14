@@ -1,0 +1,105 @@
+:root {
+    --red: #E50914;
+    --black:#141414;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--black);
+    font-family: 'Arial', Times, serif;
+    color:white;
+}
+header .container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+header .logo {
+    margin-left: 5px;
+    color: var(--red); 
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    transition: .5s ease all;
+}
+header nav a:hover {
+    color:#fff;
+}
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%) ,url('/public/netflix-clone-master/img/capa-house.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main-movie .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.click {
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.click:hover {
+    background-color: white;
+    color: black;
+}
+.click i {
+    margin-right: 5px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.box-movie {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.owl-carousel {
+    margin-top: 5px;
+}
+/*RESPONSIVIDADE*/
+/*largura menor ou igual que 700px*/
+@media screen and (max-width: 700px) {
+ header .container {
+     display: flex;
+     flex-direction: column;
+ }
+ .click {
+     margin-top: 5px;
+     width: 200px;
+     height: 60px;
+ }
+}
+/*largura maior ou igual que 1000px*/
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 50%;
+    }
+}
