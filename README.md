@@ -9,11 +9,13 @@
 - <a href="#Tutorial">Como usar</a>
 - <a href="#Features">Features</a>
 - <a href="#Contatos">Contatos</a>
-- <a href="#https://limarich.github.io/My-ToDo/">Página do projeto</a>
+- <a href=" https://limarich.github.io/Netflix_clone/">Página do projeto</a>
 ------------
 ### Sobre
 Este projeto foi criado com a finalidade de entender mais sobre como criar páginas modernas utilizando recursos básicos da tecnologias HTML, CSS e javascript. Como é possível observar neste trabalho foi clonado o layout da página inicial da netflix, com direito a animações e uso de cores bem próximas do real.
 
+
+<img src="https://github.com/limarich/Netflix_clone/blob/main/Anima%C3%A7%C3%A3o2.gif" />
 ------------
 
 ### Tecnologias
@@ -41,7 +43,7 @@ https://github.com/limarich/Netflix_clone.git
 ------------
 
 ###Contatos
-- <a href="https://limarich.github.io/My-ToDo/">Página do projeto</a>
+- <a href=" https://limarich.github.io/Netflix_clone/">Página do projeto</a>
 - <a href="https://www.linkedin.com/in/richard-lima-488b451a8/">Linkedin</a>
 - <a href="https://github.com/limarich/">github</a> 
 - <a href="mailto:richard.esclima@gmail.com">e-mail</a>
