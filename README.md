@@ -36,9 +36,9 @@ https://github.com/limarich/Netflix_clone.git
 ------------
 
 ###Features
-[] criar as outras páginas
-[] transformar em uma aplicação
-[] adicionar login e cadastro
+- [] criar as outras páginas
+- [] transformar em uma aplicação
+- [] adicionar login e cadastro
 
 ------------
 
