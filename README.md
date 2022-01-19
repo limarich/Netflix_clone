@@ -7,7 +7,7 @@
 - <a href="#Sobre">Sobre</a>
 - <a href="#Tecnologias">Tecnologias</a>
 - <a href="#Tutorial">Como usar</a>
-- <a href="#Features">Features</a>
+- <a href="#Isues">Isues</a>
 - <a href="#Contatos">Contatos</a>
 - <a href="https://limarich.github.io/Netflix_clone/">Página do projeto</a>
 ------------
@@ -35,7 +35,7 @@ https://github.com/limarich/Netflix_clone.git
 
 ------------
 
-###isues
+###Isues
 - [ ] criar as outras páginas
 - [ ] transformar em uma aplicação
 - [ ] adicionar login e cadastro
